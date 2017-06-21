@@ -6,7 +6,6 @@ body {
 }
 
 .title-fix {
-	
 	display: flex;
 	padding: 1rem;
 	justify-content: center;
@@ -31,10 +30,19 @@ a{
 	margin: 1rem;
 }
 
+.content {
+	margin-bottom: 6rem; 
+}
+
 .large-img {
 	display: flex;
 	justify-content: center;
 	margin-top: 3rem;
+}
+
+.resize {
+	width: 50%;
+	height: 50%;
 }
 
 .caption-top {
@@ -42,24 +50,36 @@ a{
 	justify-content: center;
 	font-style: 'Lobster';
 	font-size: 15px;
-	margin-bottom: 5px;
+	margin-bottom: 4rem;
 }
 
 .side {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 2rem;
 
 }
 
 .left-side{
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: center;
 }
 
 .right-side{
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
+}
+
+.social {
+	display: flex;
+	justify-content: center;
+	background-color: #ffffff;
+
+}
+
+i {
+	padding: 0.75rem 0.75rem 1rem 1rem;
 }
