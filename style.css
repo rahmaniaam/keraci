@@ -1,13 +1,16 @@
-body {
+html,body {
   margin: 0;
   padding: 0;
-  background-image: url('http://www.d-iris.com/sites/default/files/tag_finale_tarigambyong.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .container {
-  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://cbs947freshfm.files.wordpress.com/2012/07/holmesandyang.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .menu {
@@ -19,26 +22,30 @@ body {
 
 .menu a {
   color: inherit;
-  background-color: #C0C0C0;
+  background-color: white;
   margin-left: 2rem;
   margin-right: 2rem;
   padding: 0.7rem 1rem;
-  border: 0.2px solid;
+  border: 1px solid black;
   border-radius: 4px;
   text-decoration: none;
 }
 
 .menu a:hover {
-  background-color: #e2dede;
+  background-color: #000000;
+  color: #ffffff;
   /*font-size: 150%;*/
 
 }
 
 .brand {
   position: fixed;
+  width: 100%;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 8em;
+  text-align: center;
+  font-size: 5em;
   font-style: italic;
+  background-color: #abc9c4;
 }

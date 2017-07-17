@@ -8,11 +8,11 @@ body {
 header {
 	display: flex;
 	-webkit-display: flex;
-	padding: 1rem;
 	justify-content: center;
 	-webkit-justify-content: center;
 	align-items: center;
 	-webkit-align-items: center;
+	padding: 1rem;
 	position: relative;
 	color: #ffffff;
 	background-color: #393D3F;
@@ -45,6 +45,10 @@ a{
 
 .content {
 	margin-bottom: 6rem; 
+}
+
+.smaller {
+	padding: 0 10%;
 }
 
 .large-img {
@@ -109,6 +113,9 @@ a{
 	-webkit-align-items: center;
 }
 
+.icon-text {
+	font-size: 17px;
+}
 
 .social {
 	background-color: #C6C5B9;
