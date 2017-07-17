@@ -6,13 +6,8 @@ body {
 }
 
 header {
-	display: flex;
-	-webkit-display: flex;
-	justify-content: center;
-	-webkit-justify-content: center;
-	align-items: center;
-	-webkit-align-items: center;
-	padding: 1rem;
+	text-align: center;
+	padding: 2vh;
 	position: relative;
 	color: #ffffff;
 	background-color: #393D3F;
@@ -27,13 +22,9 @@ footer {
 }
 
 .nav{
-	display: flex;
-	-webkit-display: flex;
-	justify-content: center;
-	-webkit-justify-content: center;
-	align-items: center;
-	-webkit-align-items: center;
+	text-align: center;
 	position: relative;
+	padding: 2vh;
 	border-bottom: thin solid black;
 }
 
@@ -119,12 +110,9 @@ a{
 
 .social {
 	background-color: #C6C5B9;
-	display: flex;
-	-webkit-display: flex;
-	justify-content: center;
-	-webkit-justify-content: center;
+	text-align: center;
 }
 
 i {
-	padding: 0.75rem 0.75rem 1rem 1rem;
+	padding: 2vh 2vw;
 }
