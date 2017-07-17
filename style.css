@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('http://www.d-iris.com/sites/default/files/tag_finale_tarigambyong.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  position: fixed;
+}
+
+.menu {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu a {
+  color: inherit;
+  background-color: #C0C0C0;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 0.7rem 1rem;
+  border: 0.2px solid;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #e2dede;
+  /*font-size: 150%;*/
+
+}
+
+.brand {
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 8em;
+  font-style: italic;
+}
