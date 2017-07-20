@@ -1,3 +1,7 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -7,24 +11,31 @@ body {
 
 header {
 	text-align: center;
-	padding: 2vh;
+	height: 4vh;
+	line-height: 4vh;
 	position: relative;
 	color: #ffffff;
 	background-color: #393D3F;
 	border-bottom: thin solid black;
 }
 
-footer {
+.footer {
 	padding: 0.4rem;
 	background-color: #393D3F;
 	color: #ffffff;
 	text-align: center;
 }
 
+footer {
+	width: 100%;
+	position: absolute;
+}
+
 .nav{
 	text-align: center;
 	position: relative;
-	padding: 2vh;
+	height: 6vh;
+	line-height: 6vh;
 	border-bottom: thin solid black;
 }
 
@@ -39,7 +50,7 @@ a{
 }
 
 .smaller {
-	padding: 0 10%;
+	padding: 0 25%;
 }
 
 .large-img {
