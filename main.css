@@ -46,7 +46,7 @@ a{
 }
 
 .content {
-	margin-bottom: 6rem; 
+	margin-bottom: 6rem;
 }
 
 .smaller {
@@ -54,10 +54,7 @@ a{
 }
 
 .large-img {
-	display: flex;
-	-webkit-display: flex;
-	justify-content: center;
-	-webkit-justify-content: center;
+	
 	margin-top: 3rem;
 }
 
@@ -78,41 +75,22 @@ a{
 }
 
 .caption-top {
-	display: flex;
-	-webkit-display: flex;
-	justify-content: center;
-	-webkit-justify-content: center;
+	text-align: center;
 	font-style: 'Lobster';
 	font-size: 15px;
 	margin-bottom: 4rem;
 }
 
 .side {
-	display: flex;
-	-webkit-display: flex;
-	justify-content: center;
-	-webkit-justify-content: center;
-	align-items: center;
-	margin-bottom: 2rem;
 
 }
 
 .left-side{
-	display: flex;
-	-webkit-display: flex;
-	justify-content: flex-end;
-	-webkit-justify-content: flex-end;
-	align-items: center;
-	-webkit-align-items: center;
+	float: left;
 }
 
 .right-side{
-	display: flex;
-	-webkit-display: flex;
-	justify-content: flex-start;
-	-webkit-justify-content: flex-start;
-	align-items: center;
-	-webkit-align-items: center;
+	
 }
 
 .icon-text {
